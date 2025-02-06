@@ -1,5 +1,6 @@
 package Sparenetcom.Sparenet.model;
 
-public class FriendlyShopList
-{
+public class FriendlyShopList {
+
+
 }
