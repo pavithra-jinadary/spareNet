@@ -9,6 +9,7 @@ public class Inventory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long inventoryId;
+
     private String visibilityStatus;
 
     @ManyToMany(mappedBy = "inventories")

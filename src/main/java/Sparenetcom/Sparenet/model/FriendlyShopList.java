@@ -7,7 +7,7 @@ public class FriendlyShopList {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long shopListId;
+    private Long FriendShopListId;
 
 
     @ManyToOne

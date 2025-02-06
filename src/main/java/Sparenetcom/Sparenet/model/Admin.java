@@ -8,7 +8,6 @@ import java.util.List;
 public class Admin {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private  Long adminId;
 
     private String adminName;
